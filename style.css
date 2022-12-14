@@ -1,0 +1,69 @@
+* {
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #b2dcf9;
+    height: 50px;
+    border-bottom: 10px solid #F7A9A8;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+ul {
+    text-align: right;
+    position: relative;
+    top: 17px;
+    right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline;
+    padding: 0px;
+    margin: 5px;
+}
+
+h2 {
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    background-color: #b2dcf9;
+    height: 50px;
+    border-bottom: 10px solid #F7A9A8;
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+.contact-fill-in {
+    height: auto;
+    background-color: #F7A9A8;
+    margin: 0px;
+}
+
+.info-submission {
+    display: block;
+    padding: 10px;
+    border: 5px solid salmon;
+    margin: 10px;
+}
+
+#copy-right {
+    position: relative;
+    top: 15px;
+}
