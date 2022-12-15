@@ -1,69 +1,44 @@
 * {
-    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-color: white;
-    text-align: center;
+.navlink {
+    display: inline;
 }
 
-header {
-    background-color: #b2dcf9;
-    height: 50px;
-    border-bottom: 10px solid #F7A9A8;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-}
-
-
-ul {
+#navbar {
     text-align: right;
-    position: relative;
-    top: 17px;
-    right: 5px;
+    background-color: #b2dcf9;
+    padding: 10 px;
 }
 
 a {
     text-decoration: none;
 }
 
-.navbar {
-    display: inline;
-    padding: 0px;
-    margin: 5px;
+#main {
+    text-align: center;
 }
 
-h2 {
-    position: relative;
-    top: 10px;
+#contact {
+    text-align: center;
+    background-color: rgb(244, 148, 180);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#contact-button {
+    margin-top: 5px;
+    padding: 5px;
+    background: #b2dcf9;
+    border-radius: 5%;
+
 }
 
 footer {
     background-color: #b2dcf9;
-    height: 50px;
-    border-bottom: 10px solid #F7A9A8;
     text-align: center;
     color: black;
-    margin: 0px;
-}
-
-.contact-fill-in {
-    height: auto;
-    background-color: #F7A9A8;
-    margin: 0px;
-}
-
-.info-submission {
-    display: block;
-    padding: 10px;
-    border: 5px solid salmon;
-    margin: 10px;
-}
-
-#copy-right {
-    position: relative;
-    top: 15px;
 }

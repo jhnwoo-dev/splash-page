@@ -12,37 +12,38 @@
 
 <body>
     <header>
-        <ul>
-            <li class="navbar"> <strong><a href="https://github.com/jhnwoo-dev" target="_blank">GitHub</a></strong></li>
-            <li class="navbar"> <strong> <a href="./index2.html" target="_blank">Portfolio</a></strong></li>
-            <li class="navbar"> <strong> <a href=mailto:jhnguyen99@gmail.com>Contact</a></strong> </li>
+        <ul id="navbar">
+            <li class="navlink"> <a href="https://github.com/jhnwoo-dev" target="_blank">GitHub</a></li>
+            <li class="navlink"> <a href="./index2.html" target="_blank">Portfolio</a></li>
+            <li class="navlink"> <a href=mailto:jhnguyen99@gmail.com>Contact</a></li>
         </ul>
     </header>
+    <main id="main">
+        <h1>My New Website</h1>
 
-    <h1>My New Website</h1>
+        <img src="./coming-soon.png" alt="coming soon image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-    <img src="./coming-soon.png" alt="coming soon image">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-    <section class="contact-fill-in">
-        <h2>Contact Me</h2>
 
-        <section class="info-submission">
+
+        <section id="contact">
+            <h2>Contact Me</h2>
             <form action="/action_page.php">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" value="">
-
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="">
+                </div>
                 <br>
-
-                <label for="name">Email:</label>
-                <input type="text" id="email" name="email" value="">
-
-                <br>
-                <input type="submit" value="Submit">
+                <div>
+                    <label for="name">Email:</label>
+                    <input type="text" id="email" name="email" value="">
+                </div>
+                <input id="contact-button" type="submit" value="Submit">
             </form>
         </section>
+    </main>
 
-    </section>
 
     <footer>
         <p id="copy-right"> &copy;2022 Website Company</p>
